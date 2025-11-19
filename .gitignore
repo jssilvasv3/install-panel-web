@@ -1,0 +1,83 @@
+# .gitignore - Painel VPN/Proxy
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Backups
+*.bak
+*.backup
+*~
+
+# Arquivos temporários
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Configurações locais (não commitar)
+.env
+.env.local
+local-config.json
+
+# Certificados e chaves (NUNCA commitar!)
+*.key
+*.pem
+*.crt
+*.cer
+certs/
+keys/
+
+# Senhas e credenciais
+secrets.txt
+passwords.txt
+credentials.json
+
+# Arquivos de sistema
+*.pid
+*.sock
+
+# Configurações específicas do usuário
+config.local.*
+user-config.json
+
+# Arquivos compilados
+*.o
+*.a
+*.so
+*.exe
+
+# Diretórios gerados
+/dist
+/build
+/out
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+Thumbs.db
